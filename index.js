@@ -22,7 +22,4 @@ playButton.addEventListener('click', function() {
         this.dataset.playing = 'false';
     }
 
-    let state = this.getAttribute('aria-checked') === "true" ? true : false;
-	this.setAttribute( 'aria-checked', state ? "false" : "true" );
-
 }, false);
