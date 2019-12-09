@@ -23,3 +23,5 @@ playButton.addEventListener('click', function() {
     }
 
 }, false);
+
+track.connect(audioCtx.destination);
