@@ -1,0 +1,16 @@
+body {
+    background: #000;
+}
+
+#playButton {
+    position: relative;
+    z-index: 10;
+}
+
+#visualization {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}

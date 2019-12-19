@@ -1,0 +1,29 @@
+{
+  "name": "webaudio-visualizer",
+  "version": "1.0.0",
+  "description": "Visualizations with Web Audio and Canvas",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --hot"
+  },
+  "keywords": [
+    "Web",
+    "Audio",
+    "Canvas",
+    "Visualization"
+  ],
+  "author": "Gray Yeargin",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.3.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
