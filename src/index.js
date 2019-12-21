@@ -33,7 +33,12 @@ playButton.addEventListener('click', function() {
       this.dataset.playing = 'false';
   }
 
-}, false);
+});
+
+// reset button state when track ends
+audioElement.addEventListener('ended', function(){
+  playButton.setAttribute('data-playing', 'false');
+});
 
 // Vizualization
 const canvas = document.getElementById("visualization");
